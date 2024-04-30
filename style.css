@@ -13,7 +13,7 @@ body{
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgb(72, 109, 244);
+    background-color: #e3bcbc;
 }
 
 #son {
@@ -23,15 +23,21 @@ body{
     height: 225px;
     border-radius: 10px;
     align-items: center;
-    background-color: rgb(231, 234, 237);
-    border: 5px solid black
+    color: white;
+    background-color: black;
+    border: 3px solid rgba(255, 255, 255, 0.425)
+}
+
+#son:hover{
+    border: 3px solid white;
+    cursor: pointer;
 }
 
 img {
     position: absolute;
     left: 13px;
     width: 195px;
-    border: 1px solid black;
+    border: 1px solid rgb(255, 255, 255);
 }
 
 h3 {
